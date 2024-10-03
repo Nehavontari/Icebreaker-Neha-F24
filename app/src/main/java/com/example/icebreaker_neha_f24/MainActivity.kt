@@ -7,6 +7,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.view.LayoutInflater
 import com.example.icebreaker_neha_f24.databinding.ActivityMainBinding
+import android.nfc.Tag
+import android.util.Log
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -21,7 +23,17 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnSubmit.setOnClickListener{
             binding.txtQuestion.text = ""
+            writeStudentToFirebase()
+
         }
         }
+    private fun writeStudentToFirebase(){
+        val firstName = binding.txtFirstName.text
+        val lastName = binding.txtLastName.text
+        val prefName = binding.txtPrefName.text
+        val answer = binding.txtAnswer.text
+
+        Log.d("IcebreakerF24", "Variables: $firstName $lastName $prefName $answer")
+
     }
-}
+    }
