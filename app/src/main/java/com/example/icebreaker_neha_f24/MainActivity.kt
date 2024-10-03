@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
                 Log.w(TAG,"error", e)
             }
     }
+    
     private fun writeStudentToFirebase(){
         val firstName = binding.txtFirstName
         val lastName = binding.txtLastName
