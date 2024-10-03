@@ -7,6 +7,9 @@ android {
     namespace = "com.example.icebreaker_neha_f24"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding=true
+    }
     defaultConfig {
         applicationId = "com.example.icebreaker_neha_f24"
         minSdk = 30
