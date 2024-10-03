@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "982836066819",
+    "project_id": "icebreaker-neha-f24",
+    "storage_bucket": "icebreaker-neha-f24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982836066819:android:7ce1174c584506671d6c36",
+        "android_client_info": {
+          "package_name": "com.example.icebreaker_neha_f24"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArz_9YLp1XeHStAmlUX_ymlxgqoWwzijI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
